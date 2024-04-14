@@ -1,5 +1,5 @@
 import abi from '@/artifacts/contracts/DappLottery.sol/DappLottery.json'
-import address from '@/artifacts/contractAddress.json'
+import address from '../artifacts/contractAddress.json'
 import { globalActions } from '@/store/global_reducer'
 import { store } from '@/store'
 import {
