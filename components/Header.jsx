@@ -18,13 +18,12 @@ const Header = () => {
           <h1 className="text-xl font-bold">DappLottery</h1>
         </div>
 
-        <div className="hidden lg:flex items-center space-x-3 font-semibold">
-          <p>Home</p>
-          <p>How To Play</p>
-          <p>All Lottery</p>
-          <p>Contact</p>
+        <div className="hidden lg:flex items-center space-x-5 font-semibold">
+          <Link href="/">Home</Link>
+          <Link href="/">How To Play</Link>
+          <Link href="/">All Lottery</Link>
+          <Link href="/">Contact</Link>
         </div>
-
         {wallet ? (
           <button
             className="flex flex-nowrap border py-2 px-4 rounded-full bg-amber-500
